@@ -17,7 +17,7 @@ func main() {
 		printUsage()
 		return
 	}
-	serverURL := "http://localhost:8080"
+	serverURL := "https://keiran.cc"
 	command := os.Args[1]
 	switch command {
 	case "upload":
